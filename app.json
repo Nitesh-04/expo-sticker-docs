@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ExpoSticker",
-    "slug": "ExpoSticker",
+    "slug": "expo-sticker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2580ddf9-a9a4-487c-9218-a439c6d89758"
+      }
+    },
+    "owner": "nitesh-04"
   }
 }
